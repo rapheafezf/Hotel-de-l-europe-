@@ -187,7 +187,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "L'hôtel autrefois",
       "histoire_dist": "Depuis 1892 — Histoire familiale",
-      "resto_reco": "+ <a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (aligot maison) — Notre recommandation coup de cœur"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (aligot maison) — Notre recommandation coup de cœur"
     },
     "avis_list": {
       "a1_text": "\"Un séjour parfait dans cet hôtel familial. Accueil chaleureux, chambre propre et confortable, idéalement situé pour explorer les Gorges du Tarn.\"",
@@ -325,7 +325,7 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — aligot maison (notre coup de coeur !)",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — aligot maison (notre coup de coeur !)",
           "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — spécialités gibier et truites",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — poissons de rivière en bord de Jonte",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terrasse panoramique sur les gorges",
@@ -632,7 +632,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "The hotel in the past",
       "histoire_dist": "Since 1892 — Family history",
-      "resto_reco": "+ <a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (homemade aligot) — Our favorite recommendation"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (homemade aligot) — Our favorite recommendation"
     },
     "avis_list": {
       "a1_text": "\"A perfect stay in this family hotel. Warm welcome, clean and comfortable room, ideally located for exploring the Tarn Gorges.\"",
@@ -770,7 +770,7 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — homemade aligot (our favorite!)",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — homemade aligot (our favorite!)",
           "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — game and trout specialties",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — river fish by the Jonte",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — panoramic terrace over the gorges",
@@ -1077,7 +1077,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "El hotel en el pasado",
       "histoire_dist": "Desde 1892 — Historia familiar",
-      "resto_reco": "+ <a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (aligot casero) — Nuestra recomendación favorita"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (aligot casero) — Nuestra recomendación favorita"
     },
     "avis_list": {
       "a1_text": "\"Una estancia perfecta en este hotel familiar. Cálida bienvenida, habitación limpia y cómoda, idealmente situado para explorar las Gargantas del Tarn.\"",
@@ -1215,7 +1215,7 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — aligot casero (¡nuestro favorito!)",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — aligot casero (¡nuestro favorito!)",
           "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — especialidades de caza y trucha",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — pescado de río",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terraza panorámica",
@@ -1522,7 +1522,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "Das Hotel in der Vergangenheit",
       "histoire_dist": "Seit 1892 — Familiengeschichte",
-      "resto_reco": "+ <a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (hausgemachtes Aligot) — Unsere Lieblingsempfehlung"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (hausgemachtes Aligot) — Unsere Lieblingsempfehlung"
     },
     "avis_list": {
       "a1_text": "\"Ein perfekter Aufenthalt in diesem Familienhotel. Herzlicher Empfang, sauberes und komfortables Zimmer, ideal gelegen, um die Tarnschlucht zu erkunden.\"",
@@ -1660,7 +1660,7 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456221' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — hausgemachtes Aligot",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — hausgemachtes Aligot",
           "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — Wild und Forelle",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — Flussfisch",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — Panoramaterrasse",
