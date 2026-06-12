@@ -539,7 +539,7 @@ function openActiviteModal(key) {
       return `<div class="activite-info-card"><svg viewBox="0 0 24 24">${inf.icon}</svg><span class="activite-info-label">${tLabel}</span><span class="activite-info-value">${tValue}</span></div>`;
   }).join('');
 
-  document.getElementById('am-highlights').innerHTML = (tData.highlights || data.highlights).map(h => `<div class="activite-highlight-item">${h}</div>`).join('');
+  document.getElementById('am-highlights').innerHTML = (tData.highlights || data.highlights).map(h => `<div class="activite-highlight-item"><span>${h}</span></div>`).join('');
   document.getElementById('am-footer-text').textContent = tData.footer || data.footer;
 
   activiteModal.classList.add('open');
