@@ -187,7 +187,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "L'hôtel autrefois",
       "histoire_dist": "Depuis 1892 — Histoire familiale",
-      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (aligot maison) — Notre recommandation coup de cœur"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (cadre naturel) — Notre recommandation"
     },
     "avis_list": {
       "a1_text": "\"Un séjour parfait dans cet hôtel familial. Accueil chaleureux, chambre propre et confortable, idéalement situé pour explorer les Gorges du Tarn.\"",
@@ -325,12 +325,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — aligot maison (notre coup de coeur !)",
-          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — spécialités gibier et truites",
-          "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — poissons de rivière en bord de Jonte",
-          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terrasse panoramique sur les gorges",
-          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — cadre naturel exceptionnel",
-          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — ancienne meunerie reconvertie"
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — cuisine française soignée et savoureuse en bord de rivière",
+          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — cuisine gastronomique raffinée dans un château",
+          "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — pizzas artisanales et cuisine traditionnelle",
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — cuisine française traditionnelle au cœur du village",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — cuisine française soignée et savoureuse",
+          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — spécialités régionales et ambiance conviviale"
         ],
         "footer": "Notre réception peut vous aider à réserver une table selon vos préférences.",
         "tags_labels": [
@@ -632,7 +632,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "The hotel in the past",
       "histoire_dist": "Since 1892 — Family history",
-      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (homemade aligot) — Our favorite recommendation"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (natural setting) — Our recommendation"
     },
     "avis_list": {
       "a1_text": "\"A perfect stay in this family hotel. Warm welcome, clean and comfortable room, ideally located for exploring the Tarn Gorges.\"",
@@ -770,12 +770,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — homemade aligot (our favorite!)",
-          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — game and trout specialties",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — neat and tasty French cuisine by the river",
+          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — refined gastronomic cuisine in a castle",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — river fish by the Jonte",
-          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — panoramic terrace over the gorges",
-          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — exceptional natural setting",
-          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — converted old mill"
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — traditional French cuisine in the heart of the village",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — neat and tasty French cuisine",
+          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — regional specialties and a friendly atmosphere"
         ],
         "footer": "Our reception can help you book a table.",
         "tags_labels": [
@@ -1077,7 +1077,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "El hotel en el pasado",
       "histoire_dist": "Desde 1892 — Historia familiar",
-      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (aligot casero) — Nuestra recomendación favorita"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (entorno natural) — Nuestra recomendación"
     },
     "avis_list": {
       "a1_text": "\"Una estancia perfecta en este hotel familiar. Cálida bienvenida, habitación limpia y cómoda, idealmente situado para explorar las Gargantas del Tarn.\"",
@@ -1215,12 +1215,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — aligot casero (¡nuestro favorito!)",
-          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — especialidades de caza y trucha",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — cocina francesa cuidada y sabrosa junto al río",
+          "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — cocina gastronómica refinada en un castillo",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — pescado de río",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terraza panorámica",
           "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — entorno natural",
-          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — antiguo molino"
+          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — especialidades regionales y ambiente agradable"
         ],
         "footer": "Nuestra recepción puede ayudarle a reservar una mesa.",
         "tags_labels": [
@@ -1522,7 +1522,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "Das Hotel in der Vergangenheit",
       "histoire_dist": "Seit 1892 — Familiengeschichte",
-      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (hausgemachtes Aligot) — Unsere Lieblingsempfehlung"
+      "resto_reco": "+ <a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> (Naturkulisse) — Unsere Empfehlung"
     },
     "avis_list": {
       "a1_text": "\"Ein perfekter Aufenthalt in diesem Familienhotel. Herzlicher Empfang, sauberes und komfortables Zimmer, ideal gelegen, um die Tarnschlucht zu erkunden.\"",
@@ -1660,12 +1660,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — hausgemachtes Aligot",
+          "<a href='tel:+33466456012' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Les Douzes</a> — gepflegte und schmackhafte französische Küche am Fluss",
           "<a href='tel:+33466456010' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — Wild und Forelle",
           "<a href='tel:+33466456299' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — Flussfisch",
           "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — Panoramaterrasse",
           "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — Naturkulisse",
-          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — umgebaute alte Mühle"
+          "<a href='tel:+33466456100' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — regionale Spezialitäten und freundliche Atmosphäre"
         ],
         "footer": "Unsere Rezeption hilft Ihnen gerne bei der Tischreservierung.",
         "tags_labels": [
