@@ -253,13 +253,24 @@ function calcTotal() {
 
 function updateSummary() {
   calcTotal();
-  const names = { standard: 'Standard', superieure: 'Confort', familiale: 'Familiale' };
-  const fmtDate = s => new Date(s).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  const lang = localStorage.getItem('hotelLanguage') || 'fr';
+  const t = (typeof translations !== 'undefined' && translations[lang] && translations[lang].booking) ? translations[lang].booking : {
+    room_std: 'Standard', room_conf: 'Confort', room_fam: 'Familiale',
+    from: 'Du', to: 'au', nights: 'nuit(s)', guests: 'voyageur(s)'
+  };
+  const names = { standard: t.room_std, superieure: t.room_conf, familiale: t.room_fam };
+  const fmtDate = s => {
+    let loc = 'fr-FR';
+    if (lang === 'en') loc = 'en-US';
+    else if (lang === 'es') loc = 'es-ES';
+    else if (lang === 'de') loc = 'de-DE';
+    return new Date(s).toLocaleDateString(loc, { day: 'numeric', month: 'long', year: 'numeric' });
+  };
 
   const el = id => document.getElementById(id);
   if (el('sum-room')) el('sum-room').textContent = names[state.room];
-  if (el('sum-dates')) el('sum-dates').textContent = `Du ${fmtDate(state.arrival)} au ${fmtDate(state.departure)}`;
-  if (el('sum-duration')) el('sum-duration').textContent = `${state.nights} nuit(s) · ${state.guests} voyageur(s)`;
+  if (el('sum-dates')) el('sum-dates').textContent = `${t.from} ${fmtDate(state.arrival)} ${t.to} ${fmtDate(state.departure)}`;
+  if (el('sum-duration')) el('sum-duration').textContent = `${state.nights} ${t.nights} · ${state.guests} ${t.guests}`;
   if (el('sum-total')) el('sum-total').textContent = `${state.totalPrice} €`;
 }
 
@@ -317,7 +328,9 @@ document.getElementById('booking-guest-form')?.addEventListener('submit', e => {
 document.getElementById('hotel-contact-form')?.addEventListener('submit', e => {
   e.preventDefault();
   const nom = document.getElementById('contact-nom')?.value || 'vous';
-  alert(`Merci ${nom}, votre message a bien été envoyé !\n\nNotre équipe vous contactera dans les plus brefs délais.\nTél. : 04 66 45 60 05`);
+  const lang = localStorage.getItem('hotelLanguage') || 'fr';
+  const t = (typeof translations !== 'undefined' && translations[lang] && translations[lang].alerts) ? translations[lang].alerts : { thanks: "Merci", sent: "votre message a bien été envoyé !\\n\\nNotre équipe vous contactera dans les plus brefs délais.\\nTél. : 04 66 45 60 05" };
+  alert(`${t.thanks} ${nom}, ${t.sent}`);
   e.target.reset();
 });
 
@@ -466,15 +479,35 @@ const activiteCloseBtn = document.getElementById('activite-modal-close-btn');
 function openActiviteModal(key) {
   const data = activiteData[key];
   if (!data) return;
+  const lang = localStorage.getItem('hotelLanguage') || 'fr';
+  const tData = (typeof translations !== 'undefined' && translations[lang] && translations[lang].activiteData) ? translations[lang].activiteData[key] : data;
+
   const img = document.getElementById('am-hero-img');
-  img.src = data.image; img.alt = data.title;
-  document.getElementById('activite-modal-title').textContent = data.title;
-  document.getElementById('am-badge').textContent = data.badge;
-  document.getElementById('am-tags').innerHTML = data.tags();
-  document.getElementById('am-desc').textContent = data.desc;
-  document.getElementById('am-info-grid').innerHTML = data.info.map(i => `<div class="activite-info-card"><svg viewBox="0 0 24 24">${i.icon}</svg><span class="activite-info-label">${i.label}</span><span class="activite-info-value">${i.value}</span></div>`).join('');
-  document.getElementById('am-highlights').innerHTML = data.highlights.map(h => `<div class="activite-highlight-item">${h}</div>`).join('');
-  document.getElementById('am-footer-text').textContent = data.footer;
+  img.src = data.image; img.alt = tData.title || data.title;
+  document.getElementById('activite-modal-title').textContent = tData.title || data.title;
+  document.getElementById('am-badge').textContent = tData.badge || data.badge;
+
+  const iconMaps = {
+       gorges_tarn: ['water', 'swim', 'hike', 'leaf'],
+       village_meyrueis: ['village', 'market', 'heritage', 'restaurant'],
+       bonnes_adresses: ['restaurant', 'leaf', 'wine', 'coffee'],
+       gorges_jonte: ['bird', 'mountain', 'eye', 'photo'],
+       mont_aigoual: ['altitude', 'thermo', 'panorama', 'leaf'],
+       hotel_autrefois: ['history', 'family', 'photo', 'heart']
+  };
+  const tagsHtml = iconMaps[key].map((iconKey, i) => svgTag(iconKey, tData.tags_labels ? tData.tags_labels[i] : "Tag")).join('');
+  document.getElementById('am-tags').innerHTML = tagsHtml;
+  document.getElementById('am-desc').textContent = tData.desc || data.desc;
+
+  document.getElementById('am-info-grid').innerHTML = data.info.map((inf, i) => {
+      const tLabel = tData.info && tData.info[i] ? tData.info[i].label : inf.label;
+      const tValue = tData.info && tData.info[i] ? tData.info[i].value : inf.value;
+      return `<div class="activite-info-card"><svg viewBox="0 0 24 24">${inf.icon}</svg><span class="activite-info-label">${tLabel}</span><span class="activite-info-value">${tValue}</span></div>`;
+  }).join('');
+
+  document.getElementById('am-highlights').innerHTML = (tData.highlights || data.highlights).map(h => `<div class="activite-highlight-item">${h}</div>`).join('');
+  document.getElementById('am-footer-text').textContent = tData.footer || data.footer;
+
   activiteModal.classList.add('open');
   activiteModal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
@@ -523,6 +556,7 @@ window.setLanguage = function(lang) {
 
   // Save preference
   localStorage.setItem('hotelLanguage', lang);
+  if (typeof updateSummary === 'function') updateSummary();
 };
 
 // Initialize Language on Load
