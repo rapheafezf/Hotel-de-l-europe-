@@ -90,7 +90,7 @@
         </nav>
 
         <div style="display:flex;align-items:center;gap:1rem;">
-          <button class="btn btn-gold btn-sm open-booking" id="header-book-btn" data-i18n="nav.reserver">Réserver</button>
+          <button class="btn btn-book-pulse open-booking" id="header-book-btn" data-i18n="nav.reserver">Réserver</button>
           <button id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
             <span></span><span></span><span></span>
           </button>
@@ -113,7 +113,7 @@
         <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:var(--gold)"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
         04 66 45 60 05
       </a>
-      <button class="btn btn-gold w-full open-booking">Réserver</button>
+      <button class="btn btn-book-pulse w-full open-booking">Réserver</button>
     </div>
   </nav>
 
@@ -135,7 +135,7 @@
         <h1>Hôtel de<br><em>l'Europe</em></h1>
         <p class="hero-tagline" data-i18n="hero.tagline">Hôtel familial au cœur des Gorges du Tarn<br>et du Parc national des Cévennes — <strong>depuis 5 générations</strong></p>
         <div class="hero-ctas">
-          <button class="btn btn-gold btn-lg open-booking" id="hero-book-btn">
+          <button class="btn btn-book-pulse btn-lg open-booking" id="hero-book-btn">
             <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:white"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
             <span data-i18n="hero.bookBtn">Réserver ma chambre</span>
           </button>
@@ -193,7 +193,7 @@
       <div class="container">
         <div class="histoire-grid">
           <div class="histoire-img reveal">
-            <img class="histoire-img-main" src="/images/hotel_aujourdhui.jpg" alt="Façade de l'Hôtel de l'Europe Meyrueis aujourd'hui">
+            <img class="histoire-img-main" src="/images/hotel_aujourdhui.jpg" alt="Façade de l'Hôtel de l'Europe Meyrueis aujourd'hui" loading="lazy">
             <div class="histoire-img-badge">
               <span class="badge-num">5</span>
               <span class="badge-label">Générations</span>
@@ -365,7 +365,7 @@
           <!-- Standard -->
           <div class="chambre-card reveal reveal-delay-1">
             <div class="chambre-card-img">
-              <img src="/images/chambre_2personnes.jpg" alt="Chambre Standard - Hôtel de l'Europe Meyrueis">
+              <img src="/images/chambre_2personnes.jpg" alt="Chambre Standard - Hôtel de l'Europe Meyrueis" loading="lazy">
               <span class="chambre-badge">Standard</span>
             </div>
             <div class="chambre-card-body">
@@ -385,7 +385,7 @@
           <!-- Confort -->
           <div class="chambre-card reveal reveal-delay-2">
             <div class="chambre-card-img">
-              <img src="/images/image_interieur.png" alt="Chambre Confort - Hôtel de l'Europe Meyrueis">
+              <img src="/images/image_interieur.png" alt="Chambre Confort - Hôtel de l'Europe Meyrueis" loading="lazy">
               <span class="chambre-badge">Confort</span>
             </div>
             <div class="chambre-card-body">
@@ -405,7 +405,7 @@
           <!-- Familiale -->
           <div class="chambre-card reveal reveal-delay-3">
             <div class="chambre-card-img">
-              <img src="/images/chambre_3personnes.png" alt="Chambre Familiale - Hôtel de l'Europe Meyrueis">
+              <img src="/images/chambre_3personnes.png" alt="Chambre Familiale - Hôtel de l'Europe Meyrueis" loading="lazy">
               <span class="chambre-badge">Familiale</span>
             </div>
             <div class="chambre-card-body">
@@ -508,7 +508,7 @@
         <!-- Activities mosaic -->
         <div class="activites-grid">
           <div class="activite-card reveal">
-            <img class="activite-card-img" src="/images/activite_2.png" alt="Gorges du Tarn - Canoë sur la rivière">
+            <img class="activite-card-img" src="/images/activite_2.png" alt="Gorges du Tarn - Canoë sur la rivière" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.gorges_tarn_title">Gorges du Tarn</h4>
@@ -516,7 +516,7 @@
             </div>
           </div>
           <div class="activite-card reveal reveal-delay-1">
-            <img class="activite-card-img" src="/images/activite_4.png" alt="Marché de Meyrueis">
+            <img class="activite-card-img" src="/images/activite_4.png" alt="Marché de Meyrueis" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.village_title">Village de Meyrueis</h4>
@@ -524,7 +524,7 @@
             </div>
           </div>
           <div class="activite-card reveal reveal-delay-2">
-            <img class="activite-card-img" src="/images/activite_3.png" alt="Restaurant avec vue sur Meyrueis">
+            <img class="activite-card-img" src="/images/activite_3.png" alt="Restaurant avec vue sur Meyrueis" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.adresses_title">Bonnes adresses</h4>
@@ -532,7 +532,7 @@
             </div>
           </div>
           <div class="activite-card reveal reveal-delay-3">
-            <img class="activite-card-img" src="/images/gorges_landscape.png" alt="Gorges de la Jonte - Vue panoramique">
+            <img class="activite-card-img" src="/images/gorges_landscape.png" alt="Gorges de la Jonte - Vue panoramique" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.jonte_title">Gorges de la Jonte</h4>
@@ -540,7 +540,7 @@
             </div>
           </div>
           <div class="activite-card reveal">
-            <img class="activite-card-img" src="/images/activite_1.png" alt="Mont Aigoual - Panorama 360°">
+            <img class="activite-card-img" src="/images/activite_1.png" alt="Mont Aigoual - Panorama 360°" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.aigoual_title">Mont Aigoual</h4>
@@ -548,7 +548,7 @@
             </div>
           </div>
           <div class="activite-card reveal reveal-delay-1">
-            <img class="activite-card-img" src="/images/hotel_autrefois.jpg" alt="L'hôtel autrefois">
+            <img class="activite-card-img" src="/images/hotel_autrefois.jpg" alt="L'hôtel autrefois" loading="lazy">
             <div class="activite-card-overlay"></div>
             <div class="activite-card-content">
               <h4 data-i18n="activite_cards.histoire_title">L'hôtel autrefois</h4>
@@ -929,7 +929,7 @@
 
           <div class="room-option" id="opt-standard" data-room="standard">
             <div class="room-option-thumb">
-              <img src="/images/chambre_2personnes.jpg" alt="Chambre Standard">
+              <img src="/images/chambre_2personnes.jpg" alt="Chambre Standard" loading="lazy">
             </div>
             <div>
               <h5 style="margin-bottom:.3rem">Standard</h5>
@@ -942,7 +942,7 @@
 
           <div class="room-option" id="opt-superieure" data-room="superieure">
             <div class="room-option-thumb">
-              <img src="/images/image_interieur.png" alt="Chambre Confort">
+              <img src="/images/image_interieur.png" alt="Chambre Confort" loading="lazy">
             </div>
             <div>
               <h5 style="margin-bottom:.3rem">Confort</h5>
@@ -955,7 +955,7 @@
 
           <div class="room-option" id="opt-familiale" data-room="familiale">
             <div class="room-option-thumb">
-              <img src="/images/chambre_3personnes.png" alt="Chambre Familiale">
+              <img src="/images/chambre_3personnes.png" alt="Chambre Familiale" loading="lazy">
             </div>
             <div>
               <h5 style="margin-bottom:.3rem">Familiale</h5>
@@ -1073,7 +1073,7 @@
         <!-- Brand -->
         <div class="footer-brand">
           <div class="logo" style="margin-bottom:1.5rem">
-            <img src="/images/logo-white.svg" alt="Hôtel de l'Europe Logo" class="logo-img-footer" />
+            <img src="/images/logo-white.svg" alt="Hôtel de l'Europe Logo" class="logo-img-footer" / loading="lazy">
           </div>
           <p data-i18n="footer.brand_desc">Hôtel familial 2★ au cœur de Meyrueis, depuis 5 générations. Point de départ idéal pour les Gorges du Tarn et les Cévennes.</p>
         </div>
@@ -1142,7 +1142,7 @@
     <div id="activite-modal-backdrop"></div>
     <div class="activite-modal-panel">
       <div class="activite-modal-hero">
-        <img id="am-hero-img" src="" alt="">
+        <img id="am-hero-img" src="" alt="" loading="lazy">
         <div class="activite-modal-hero-content">
           <h2 class="activite-modal-hero-title" id="activite-modal-title"></h2>
           <span class="activite-modal-distance-badge" id="am-badge"></span>
