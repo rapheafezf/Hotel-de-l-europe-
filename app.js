@@ -129,12 +129,7 @@ document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 /* ----------------------------------------------------------
    RESTAURANT PILLS INTERACTION
    ---------------------------------------------------------- */
-document.querySelectorAll('.resto-pill').forEach(pill => {
-  pill.addEventListener('click', () => {
-    document.querySelectorAll('.resto-pill').forEach(p => p.classList.remove('active'));
-    pill.classList.add('active');
-  });
-});
+
 
 /* ----------------------------------------------------------
    BOOKING MODAL

@@ -1179,6 +1179,8 @@ strong { font-weight: 600; color: var(--text-primary); }
   font-weight: 500;
   cursor: pointer;
   transition: var(--transition-fast);
+  text-decoration: none;
+  display: inline-block;
 }
 
 .resto-pill:hover, .resto-pill.active {
