@@ -314,12 +314,51 @@ document.getElementById('btn-back-step1')?.addEventListener('click', () => goToS
 });
 
 // Submit form → Step 3
-document.getElementById('booking-guest-form')?.addEventListener('submit', e => {
+document.getElementById('booking-guest-form')?.addEventListener('submit', async e => {
   e.preventDefault();
-  const id = `#EUR-2026-${Math.floor(1000 + Math.random() * 9000)}`;
-  const el = document.getElementById('booking-id-val');
-  if (el) el.textContent = id;
-  goToStep(3);
+  
+  const btn = document.querySelector('#booking-guest-form button[type="submit"]');
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Traitement en cours...';
+
+  const roomTypeDb = state.room === 'superieure' ? 'confort' : state.room;
+
+  const formData = {
+    check_in: state.arrival,
+    check_out: state.departure,
+    room_type: roomTypeDb,
+    guests_count: parseInt(state.guests, 10),
+    guest_name: document.getElementById('guest-nom').value + ' ' + document.getElementById('guest-prenom').value,
+    guest_email: document.getElementById('guest-email').value,
+    guest_phone: document.getElementById('guest-tel').value
+  };
+
+  try {
+    const response = await fetch('/api/reservations', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      alert(result.error || "Une erreur est survenue.");
+      btn.disabled = false;
+      btn.textContent = originalText;
+    } else {
+      const el = document.getElementById('booking-id-val');
+      if (el) el.textContent = `#${result.reservation.id}`;
+      goToStep(3);
+      btn.disabled = false;
+      btn.textContent = originalText;
+    }
+  } catch (err) {
+    alert("Erreur de connexion au serveur.");
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
 });
 
 /* ----------------------------------------------------------
