@@ -55,7 +55,7 @@
   /* Spacing */
   --section-gap: clamp(5rem, 8vw, 9rem);
   --container: 1240px;
-  --header-h: 80px;
+  --header-h: 96px;
 }
 
 /* ============================================================
@@ -411,7 +411,7 @@ strong { font-weight: 600; color: var(--text-primary); }
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding-top: 26px;
+  padding-top: 44px;
   transition: padding 0.3s var(--ease);
 }
 
