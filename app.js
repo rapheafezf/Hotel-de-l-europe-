@@ -254,7 +254,7 @@ function calcTotal() {
 function updateSummary() {
   calcTotal();
   const lang = localStorage.getItem('hotelLanguage') || 'fr';
-  const t = (typeof translations !== 'undefined' && translations[lang] && translations[lang].booking) ? translations[lang].booking : {
+  const t = (typeof window.translations !== 'undefined' && window.translations[lang] && window.translations[lang].booking) ? window.translations[lang].booking : {
     room_std: 'Standard', room_conf: 'Confort', room_fam: 'Familiale',
     from: 'Du', to: 'au', nights: 'nuit(s)', guests: 'voyageur(s)'
   };
@@ -329,7 +329,7 @@ document.getElementById('hotel-contact-form')?.addEventListener('submit', e => {
   e.preventDefault();
   const nom = document.getElementById('contact-nom')?.value || 'vous';
   const lang = localStorage.getItem('hotelLanguage') || 'fr';
-  const t = (typeof translations !== 'undefined' && translations[lang] && translations[lang].alerts) ? translations[lang].alerts : { thanks: "Merci", sent: "votre message a bien été envoyé !\\n\\nNotre équipe vous contactera dans les plus brefs délais.\\nTél. : 04 66 45 60 05" };
+  const t = (typeof window.translations !== 'undefined' && window.translations[lang] && window.translations[lang].alerts) ? window.translations[lang].alerts : { thanks: "Merci", sent: "votre message a bien été envoyé !\\n\\nNotre équipe vous contactera dans les plus brefs délais.\\nTél. : 04 66 45 60 05" };
   alert(`${t.thanks} ${nom}, ${t.sent}`);
   e.target.reset();
 });
@@ -480,7 +480,7 @@ function openActiviteModal(key) {
   const data = activiteData[key];
   if (!data) return;
   const lang = localStorage.getItem('hotelLanguage') || 'fr';
-  const tData = (typeof translations !== 'undefined' && translations[lang] && translations[lang].activiteData) ? translations[lang].activiteData[key] : data;
+  const tData = (typeof window.translations !== 'undefined' && window.translations[lang] && window.translations[lang].activiteData) ? window.translations[lang].activiteData[key] : data;
 
   const img = document.getElementById('am-hero-img');
   img.src = data.image; img.alt = tData.title || data.title;
@@ -539,7 +539,7 @@ window.setLanguage = function(lang) {
   if (activeBtn) activeBtn.classList.add('active');
 
   // Load translations from translations.js
-  const dict = translations[lang];
+  const dict = window.translations[lang];
   if (!dict) return;
 
   // Replace text for all data-i18n attributes

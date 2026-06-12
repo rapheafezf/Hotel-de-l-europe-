@@ -1,4 +1,4 @@
-const translations = {
+window.translations = {
   "fr": {
     "nav": {
       "hotel": "Hôtel",

@@ -573,7 +573,7 @@
               <h2 data-i18n="destination.resto_title">Bonnes adresses à Meyrueis</h2>
               <p data-i18n="destination.resto_desc">L'hôtel de l'Europe est votre point de départ idéal.</p>
             </div>
-            <button class="btn btn-gold btn-sm" onclick="alert((typeof translations !== 'undefined' && translations[localStorage.getItem('hotelLanguage') || 'fr'] && translations[localStorage.getItem('hotelLanguage') || 'fr'].alerts) ? translations[localStorage.getItem('hotelLanguage') || 'fr'].alerts.contact_resto : 'Contactez-nous au 04 66 45 60 05 pour une réservation table !')" data-i18n="destination.resto_btn">Réserver une table</button>
+            <button class="btn btn-gold btn-sm" onclick="alert((typeof window.translations !== 'undefined' && window.translations[localStorage.getItem('hotelLanguage') || 'fr'] && window.translations[localStorage.getItem('hotelLanguage') || 'fr'].alerts) ? window.translations[localStorage.getItem('hotelLanguage') || 'fr'].alerts.contact_resto : 'Contactez-nous au 04 66 45 60 05 pour une réservation table !')" data-i18n="destination.resto_btn">Réserver une table</button>
           </div>
 
           <div class="resto-pills" id="resto-pills">
