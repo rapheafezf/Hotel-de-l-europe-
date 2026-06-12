@@ -187,7 +187,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "L'hôtel autrefois",
       "histoire_dist": "Depuis 1892 — Histoire familiale",
-      "resto_reco": "+ <a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> (aligot maison) — Notre recommandation coup de cœur"
+      "resto_reco": "+ <a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (aligot maison) — Notre recommandation coup de cœur"
     },
     "avis_list": {
       "a1_text": "\"Un séjour parfait dans cet hôtel familial. Accueil chaleureux, chambre propre et confortable, idéalement situé pour explorer les Gorges du Tarn.\"",
@@ -325,12 +325,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> — aligot maison (notre coup de coeur !)",
-          "<a href='tel:+33466456197' style='color:var(--gold);text-decoration:underline;' target='_blank'>Auberge du Doiron</a> — spécialités gibier et truites",
-          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Truite</a> — poissons de rivière en bord de Jonte",
-          "<a href='tel:+33466456209' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Belvedere</a> — terrasse panoramique sur les gorges",
-          "<a href='https://www.hotel-jonte.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant de la Jonte</a> — cadre naturel exceptionnel",
-          "<a href='https://www.tourisme-sud-cevennes.com/equipement/moulin-de-la-foux/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Moulin de la Foux</a> — ancienne meunerie reconvertie"
+          "<a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — aligot maison (notre coup de coeur !)",
+          "<a href='https://www.hotel-restaurant-meyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — spécialités gibier et truites",
+          "<a href='https://www.lacardabelle-meyrueis.fr/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — poissons de rivière en bord de Jonte",
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terrasse panoramique sur les gorges",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — cadre naturel exceptionnel",
+          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — ancienne meunerie reconvertie"
         ],
         "footer": "Notre réception peut vous aider à réserver une table selon vos préférences.",
         "tags_labels": [
@@ -632,7 +632,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "The hotel in the past",
       "histoire_dist": "Since 1892 — Family history",
-      "resto_reco": "+ <a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> (homemade aligot) — Our favorite recommendation"
+      "resto_reco": "+ <a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (homemade aligot) — Our favorite recommendation"
     },
     "avis_list": {
       "a1_text": "\"A perfect stay in this family hotel. Warm welcome, clean and comfortable room, ideally located for exploring the Tarn Gorges.\"",
@@ -770,12 +770,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> — homemade aligot (our favorite!)",
-          "<a href='tel:+33466456197' style='color:var(--gold);text-decoration:underline;' target='_blank'>Auberge du Doiron</a> — game and trout specialties",
-          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Truite</a> — river fish by the Jonte",
-          "<a href='tel:+33466456209' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Belvedere</a> — panoramic terrace over the gorges",
-          "<a href='https://www.hotel-jonte.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant de la Jonte</a> — exceptional natural setting",
-          "<a href='https://www.tourisme-sud-cevennes.com/equipement/moulin-de-la-foux/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Moulin de la Foux</a> — converted old mill"
+          "<a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — homemade aligot (our favorite!)",
+          "<a href='https://www.hotel-restaurant-meyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — game and trout specialties",
+          "<a href='https://www.lacardabelle-meyrueis.fr/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — river fish by the Jonte",
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — panoramic terrace over the gorges",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — exceptional natural setting",
+          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — converted old mill"
         ],
         "footer": "Our reception can help you book a table.",
         "tags_labels": [
@@ -1077,7 +1077,7 @@ window.translations = {
       "aigoual_dist": "35 km — Panorama 360°",
       "histoire_title": "El hotel en el pasado",
       "histoire_dist": "Desde 1892 — Historia familiar",
-      "resto_reco": "+ <a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> (aligot casero) — Nuestra recomendación favorita"
+      "resto_reco": "+ <a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (aligot casero) — Nuestra recomendación favorita"
     },
     "avis_list": {
       "a1_text": "\"Una estancia perfecta en este hotel familiar. Cálida bienvenida, habitación limpia y cómoda, idealmente situado para explorar las Gargantas del Tarn.\"",
@@ -1215,12 +1215,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> — aligot casero (¡nuestro favorito!)",
-          "<a href='tel:+33466456197' style='color:var(--gold);text-decoration:underline;' target='_blank'>Auberge du Doiron</a> — especialidades de caza y trucha",
-          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Truite</a> — pescado de río",
-          "<a href='tel:+33466456209' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Belvedere</a> — terraza panorámica",
-          "<a href='https://www.hotel-jonte.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant de la Jonte</a> — entorno natural",
-          "<a href='https://www.tourisme-sud-cevennes.com/equipement/moulin-de-la-foux/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Moulin de la Foux</a> — antiguo molino"
+          "<a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — aligot casero (¡nuestro favorito!)",
+          "<a href='https://www.hotel-restaurant-meyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — especialidades de caza y trucha",
+          "<a href='https://www.lacardabelle-meyrueis.fr/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — pescado de río",
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — terraza panorámica",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — entorno natural",
+          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — antiguo molino"
         ],
         "footer": "Nuestra recepción puede ayudarle a reservar una mesa.",
         "tags_labels": [
@@ -1522,7 +1522,7 @@ window.translations = {
       "aigoual_dist": "35 km — 360° Panorama",
       "histoire_title": "Das Hotel in der Vergangenheit",
       "histoire_dist": "Seit 1892 — Familiengeschichte",
-      "resto_reco": "+ <a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> (hausgemachtes Aligot) — Unsere Lieblingsempfehlung"
+      "resto_reco": "+ <a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> (hausgemachtes Aligot) — Unsere Lieblingsempfehlung"
     },
     "avis_list": {
       "a1_text": "\"Ein perfekter Aufenthalt in diesem Familienhotel. Herzlicher Empfang, sauberes und komfortables Zimmer, ideal gelegen, um die Tarnschlucht zu erkunden.\"",
@@ -1660,12 +1660,12 @@ window.translations = {
           }
         ],
         "highlights": [
-          "<a href='tel:+33466456174' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Jardin des Glaces</a> — hausgemachtes Aligot",
-          "<a href='tel:+33466456197' style='color:var(--gold);text-decoration:underline;' target='_blank'>Auberge du Doiron</a> — Wild und Forelle",
-          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Truite</a> — Flussfisch",
-          "<a href='tel:+33466456209' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Belvedere</a> — Panoramaterrasse",
-          "<a href='https://www.hotel-jonte.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant de la Jonte</a> — Naturkulisse",
-          "<a href='https://www.tourisme-sud-cevennes.com/equipement/moulin-de-la-foux/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Le Moulin de la Foux</a> — umgebaute alte Mühle"
+          "<a href='https://www.saintsauveurhotelmeyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Saint-Sauveur</a> — hausgemachtes Aligot",
+          "<a href='https://www.hotel-restaurant-meyrueis.com/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Château d'Ayres</a> — Wild und Forelle",
+          "<a href='https://www.lacardabelle-meyrueis.fr/' style='color:var(--gold);text-decoration:underline;' target='_blank'>La Cardabelle</a> — Flussfisch",
+          "<a href='tel:+33466456143' style='color:var(--gold);text-decoration:underline;' target='_blank'>Grand Hôtel de France</a> — Panoramaterrasse",
+          "<a href='tel:+33466456289' style='color:var(--gold);text-decoration:underline;' target='_blank'>Aven Gourmand</a> — Naturkulisse",
+          "<a href='https://www.hotel-family.com/restaurant-meyrueis/' style='color:var(--gold);text-decoration:underline;' target='_blank'>Restaurant Family</a> — umgebaute alte Mühle"
         ],
         "footer": "Unsere Rezeption hilft Ihnen gerne bei der Tischreservierung.",
         "tags_labels": [
