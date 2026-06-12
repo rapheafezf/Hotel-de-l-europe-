@@ -510,6 +510,7 @@ strong { font-weight: 600; color: var(--text-primary); }
   place-items: center;
   overflow: hidden;
   padding-top: var(--header-h);
+  padding-bottom: 7rem; /* Espace pour le bouton défiler */
 }
 
 .hero-bg {
